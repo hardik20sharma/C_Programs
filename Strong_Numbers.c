@@ -14,8 +14,8 @@ int main()
 		{
 			fact=fact*i;
 		}
-		sum=sum+fact;
-		n=n/10;
+		sum += sfact;
+		n/=10;
 	}
 	if(sum==temp)
 		printf("Number is strong");
