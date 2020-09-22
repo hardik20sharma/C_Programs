@@ -1,5 +1,5 @@
 //Program to find Armstrong Numbers between 1 and 1000
-//Hardik Sharma-18BCG10044
+
 #include<stdio.h>
 #include<math.h>
 void main()
