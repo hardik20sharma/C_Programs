@@ -1,5 +1,4 @@
 //Ascending Order Array
-//Hardik Sharma-18BCG10044
 #include<stdio.h>
 
 void main()
