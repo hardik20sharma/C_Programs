@@ -1,5 +1,4 @@
 //Input-Output of matrix, Addidition of Two Matrix
-//HARDIK SHARMA-18BCG10044
 #include<stdio.h>
 
 void main()
