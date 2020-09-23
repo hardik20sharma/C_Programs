@@ -1,5 +1,4 @@
 //Multiplication of Matrix
-//Hardik Sharma - 18BCG10044
 #include<stdio.h>
 
 void main()
@@ -47,14 +46,12 @@ void main()
 	}
 	//Multiplying
 	for(i=0; i<r1; i++)
-	{
 		for(j=0; j<c1; j++)
 		{
 			multiply_matrix[i][j]=0;
 			for(k=0; k<c1; k++)
 				multiply_matrix[i][j]+=matrix1[i][k]+matrix2[k][j];
 		}
-	}
 	
 	//Printing Multiply Matrix
 	printf("Multiplied Matrix is -- \n");
