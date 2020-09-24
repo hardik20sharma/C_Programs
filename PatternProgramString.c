@@ -1,5 +1,4 @@
 //Pattern Program
-//18BCG10044 - HARDIK SHARMA
 #include<stdio.h>
 void main()
 {
