@@ -1,5 +1,4 @@
-//POINTERS (17-09-2018) MONDAY
-//Hardik Sharma - 18BCG10044
+//POINTERS
 #include<stdio.h>
 void main()
 {
