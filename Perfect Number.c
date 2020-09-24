@@ -1,5 +1,4 @@
 //Perfect Number
-//Hardik Sharma - 18BCG10044
 #include<stdio.h>
 int main()
 {
@@ -7,7 +6,7 @@ int main()
 	printf("Enter the number: "); scanf("%d", &number);
 	
 	for(i=1; i<number; i++)
-		if(number%i==0)
+		if(number % i==0)
 			sum+=i;
 	
 	if(number==sum)
