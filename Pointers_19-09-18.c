@@ -1,6 +1,4 @@
-//Pointers (19-09-2018) WEDNESDAY
-//Hardik Sharma - 18BCG10044
-
+//Pointers
 #include<stdio.h>
 void main()
 {
