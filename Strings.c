@@ -1,5 +1,4 @@
 // Strings
-// Hardik Sharma - 18BCG10044
 #include<stdio.h>
 #include<string.h>
 void main()
