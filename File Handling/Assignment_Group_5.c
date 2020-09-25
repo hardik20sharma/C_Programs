@@ -4,15 +4,6 @@ QUESTION:
 	WAP that promts the user for two files. One containing line of text knows as source file. And another one is target 
 	file which is empty. Take one location from the user delete the character from that location and insert the line from 
 	source to target.
-	
-GROUP 5 MEMBERS:
-	1) Ayush Patra (18BCG10028)
-	2) Anurag Sharma (18BCG10020)
-	3) Jai Santani (18BCE10123)
-	4) Aryan Varshneya (18BCE10064)
-	5) Manav Shah (18BCE10156)
-	6) Hardik Sharma (18BCG10044)
-	7) Kuldeep Choubey(18BCE10147)
 */
 
 #include<stdio.h>
