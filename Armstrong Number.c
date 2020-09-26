@@ -1,5 +1,4 @@
 //Program to find if a number is Armstrong or not
-//Hardik Sharma-18BCG10044
 
 #include<stdio.h>
 #include<math.h>
@@ -17,13 +16,13 @@ void main()
 		num1/=10;
 	}
 	
-	num1=num1_store;
+	num1 = num1_store;
 	
 	while(num1>0)
 	{
-		d=num1%10;
-		num2=num2+pow(d,digits);
-		num1/=10;		
+		d = num1 % 10;
+		num2 = num2 + pow(d, digits);
+		num1 /= 10;
 	}
 	
 	if(num1_store==num2)
