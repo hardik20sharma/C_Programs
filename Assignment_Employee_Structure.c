@@ -9,8 +9,7 @@ struct date
 struct employee
 {
 	char name[30];
-	int id;
-	int salary;
+	int id, salary;
 	struct date birthday;	
 };
 
@@ -18,8 +17,8 @@ void main()
 {
 	int i, n;
 	struct employee e[5];
-	printf("Enter the number of employees: "); scanf("%d", &n);
 	
+	printf("Enter the number of employees: "); scanf("%d", &n);
 	for(i=0; i<n; i++)
 	{
 		printf("Enter the employee name: "); fflush(stdin); gets(e[i].name);
