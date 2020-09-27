@@ -7,12 +7,12 @@ void main()
     printf("Enter a decimal integer: \n"); scanf("%d", &decimal);
     
 	decimal_store = decimal;
-    while(decimal>0)
+    while(decimal > 0)
     {
-        remainder=decimal%2;
-        binary+=(remainder*base);
-        decimal/=2;
-        base*=10;
+        remainder = decimal%2;
+        binary += (remainder*base);
+        decimal /= 2;
+        base *= 10;
     }
     printf("Input number is = %d\n", decimal_store);
     printf("Its binary equivalent is = %d", binary);
