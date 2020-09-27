@@ -1,10 +1,9 @@
 //Fibonacci Numbers
-
 #include<stdio.h>
 
 void main()
 {
-	int number, i, sum=2, last_num=1, second_last=1;
+	int number, i, sum = 2, last_num = 1, second_last = 1;
 	printf("Enter the number: "); scanf("%d", &number);
 
 	if(number==1)
