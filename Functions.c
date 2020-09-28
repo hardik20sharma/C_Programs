@@ -25,17 +25,14 @@ void print_recursive(int num)		//Printing using recursive function
 
 int factorial_recursive(int num)	//Factorial using recursive function
 {
-	if(num==1)
-		return 1;
-	else
-		return num*factorial_recursive(num-1);
+	return (num == 1) ? 1 : num*factorial_recursive(num-1);
 }
 
 int reverse(int num1, int num2)
 {
-	int temp=num1;
-	num1=num2;
-	num2=temp;
+	int temp = num1;
+	num1 = num2;
+	num2 = temp;
 	return(num1, num2);
 }
 
@@ -75,7 +72,7 @@ void main()
 	
 	int result;
 	printf("Enter the number (for factorial):"); scanf("%d", &num3);
-	result=factorial_recursive(num3);
+	result = factorial_recursive(num3);
 	printf("Factorial is: %d\n", result);
 	
 	
