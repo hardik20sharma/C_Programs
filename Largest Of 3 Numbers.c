@@ -8,16 +8,16 @@ void main()
 	printf("Enter the third number: "); scanf("%d", &num3);
 	
 	printf("\nThe largest number is ");
-	if(num1>num2)
+	if(num1 > num2)
 	{
-		if(num1>num3)
+		if(num1 > num3)
 			printf("%d", num1);
 		else
 			printf("%d", num3);
 	}
 	else
 	{
-		if(num2>num3)
+		if(num2 > num3)
 			printf("%d", num2);
 		else
 			printf("%d", num3);
