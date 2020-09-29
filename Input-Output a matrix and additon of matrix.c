@@ -32,7 +32,9 @@ void main()
 	for(i=0; i<3; i++)		//Calculating sum_matrix and printing it
 	{
 		for(j=0; j<3; j++)
-		{	sum_matrix[i][j]=matrix1[i][j]+matrix2[i][j];	printf("%d ", sum_matrix[i][j]); }
+		{	sum_matrix[i][j] = matrix1[i][j] + matrix2[i][j];
+		 	printf("%d ", sum_matrix[i][j]);
+		}
 		printf("\n");
 	}
 }
