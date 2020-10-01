@@ -1,10 +1,10 @@
-//Pattern Program
+// Pattern Program
 #include<stdio.h>
 void main()
 {
 
-	int j, i, k, n=6;
-	char arr[6]="String";
+	int j, i, k, n = 6;
+	char arr[6] = "String";
 	
 	//r
 	//tr
@@ -28,7 +28,7 @@ void main()
 	}
 	printf("\n\n\n");
 	
-	//		u
+	//	    u
 	//	   un
 	//	  uni
 	for(i=0; i<n+1; i++)
