@@ -1,4 +1,4 @@
-//Multiplication of Matrix
+// Multiplication of Matrix
 #include<stdio.h>
 
 void main()
