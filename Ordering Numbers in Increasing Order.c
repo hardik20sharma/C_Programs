@@ -1,9 +1,9 @@
-//Ascending Order Array
+// Ascending Order Array
 #include<stdio.h>
 
 void main()
 {
-	int i, j, n=5, a[5], temp=0;
+	int i, j, n=5, a[5], temp = 0;
 	
 	printf("Enter the numbers: \n");		//Inputing 5 numbers in an array
 	for(i=0; i<n; i++)
