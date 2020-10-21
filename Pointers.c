@@ -5,7 +5,7 @@ void main()
 	/*
 	POINTERS
 	*/
-	int b=10;
+	int b = 10;
 	int *p;		//Pointer is used for holding the address of a variable, declared by using '*'
 	printf("Printing address of b directly:%d\n",&b);		//Printing address of b directly
 	
