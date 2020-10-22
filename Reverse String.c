@@ -11,7 +11,7 @@ void main()
 		printf("%c", str1[i]);
 		
 	
-	printf("\nReverse String:%s", strrev(str1));	//with strrev() function
+	printf("\nReverse String:%s", strrev(str1));		//with strrev() function
 		
 	printf("\n\nEnter string 2:"); gets(str2);	
 	i=j=0;								//Copying string 2 to string 1 without strcpy() function
