@@ -5,10 +5,10 @@ void main()
 	/*
 		COUNTING THE LENGTH OF STRING USING POINTERS
 	*/
-	int i=0;
-	char str1[15]="university", *p;
+	int i = 0;
+	char str1[15] = "university", *p;
 	
-	p=str1;
+	p = str1;
 	
 	while(*p!='\0')
 	{
