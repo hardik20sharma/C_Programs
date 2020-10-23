@@ -1,6 +1,5 @@
 /*
-	3.WAP a program for restaurant billing system. Enter name of item, and quantity of item. It will display a detailed bill
-		to the customer.
+	3.WAP a program for restaurant billing system. Enter name of item, and quantity of item. It will display a detailed bill to the customer.
 */
 
 #include<stdio.h>
