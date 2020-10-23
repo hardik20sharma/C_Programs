@@ -5,8 +5,8 @@ void main()
 {
 	int i;
 	
-	char name[]={'S','a','n','d','i','p'};
-	char name1[]="VIT";
+	char name[] = {'S','a','n','d','i','p'};
+	char name1[] = "VIT";
 	char name2[15];
 	char name3[10];
 	
@@ -23,6 +23,6 @@ void main()
 	printf("%s\n", name3);
 	
 	//String length
-	i=strlen(name3);
+	i = strlen(name3);
 	printf("%d\n", i);
 }
