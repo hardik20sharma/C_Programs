@@ -6,7 +6,6 @@ void main()
 	printf("Enter the number: "); scanf("%d", &number);
 
 	int number_copy = number;
-
 	while(number_copy)
 	{
 		d = number_copy % 10;
