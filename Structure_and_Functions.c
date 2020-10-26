@@ -86,6 +86,7 @@ void main()
 	printf("\nProgram 3 !!\n"); //PROGRAM 3
 	printf("-------------\n");
 	int i, n;
+	
 	printf("Enter the number of students: "); scanf("%d", &n);
 	for(i=0; i<n; i++)
 	{
