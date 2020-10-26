@@ -7,4 +7,3 @@ void main()
 	printf("The character is it: %c",c);
 	printf("\nThe ASCII value is: %d", c);
 }
-
