@@ -34,8 +34,7 @@
 struct student
 {
 	char name[15];
-	int roll_no;
-	int marks;
+	int roll_no, marks;
 	char gender[1];
 	long int phone_number;
 } s1;
