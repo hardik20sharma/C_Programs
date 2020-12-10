@@ -3,22 +3,17 @@
 
 int main()
 {
-	int n,d,sum=0,temp,i;
+	int n, d, sum = 0, temp, i;
 	printf("Enter any number:"); scanf("%d",&n);
-	temp=n;
-	while(n>0)
+	temp = n;
+	while(n > 0)
 	{
-		d=n%10;
+		d= n % 10;
 		int fact=1;
 		for(i=d;i>=1;i--)
-		{
-			fact=fact*i;
-		}
+			fact *= i;
 		sum += sfact;
-		n/=10;
+		n /= 10;
 	}
-	if(sum==temp)
-		printf("Number is strong");
-	else
-		printf("Number is not strong");
+	(sum == temp) ? printf("Number is strong") : printf("Number is not strong");
 }
